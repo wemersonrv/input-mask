@@ -73,6 +73,6 @@ This custom field has only two method:
 
 Wemerson Guimarães – [@WemersonCG](https://twitter.com/WemersonCG) – wemersonrv@gmail.com
 
-Distributed under the GPL v3.0 license. See [LICENSE.md](LICENSE.md) for more information.
+Distributed under the GPLv3 license. See [LICENSE.md](LICENSE.md) for more information.
 
 [https://github.com/wemersonrv/input-mask/](https://github.com/wemersonrv/input-mask/)
