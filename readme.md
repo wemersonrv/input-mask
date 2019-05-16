@@ -53,12 +53,16 @@ This custom field has only two method:
 
 ## Release History
 
+* 0.1.2
+  * Fix license in `composer.json` from GPLv3 to *GPL-3.0-or-later*
+* 0.1.1
+  * Fix license in `composer.json` o GPLv3
 * 0.1.0
   * The First Oficial release
   * CHANGE: Nothing important. 
   * ADD: button badge for github release
 * 0.0.1
-    * Work in progress
+  * Work in progress
 
 ## References
 
