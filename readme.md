@@ -1,11 +1,7 @@
 # Nova Input Mask
 > Nova custom field text with masks.
 
-### Buttons (TODO)
-* Packagist version button
-* Laravel && laravel nova requisites
-* Build Status
-* Packagist download stats
+[![Latest Version on Github](https://img.shields.io/github/release/wemersonrv/input-mask.svg?style=flat)](https://packagist.org/packages/wemersonrv/input-mask)
 
 Nova custom field text with masks. It uses `vue-the-mask` to implement mask directive to input field.
 
