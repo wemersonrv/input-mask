@@ -53,6 +53,10 @@ This custom field has only two method:
 
 ## Release History
 
+* 0.1.0
+  * The First Oficial release
+  * CHANGE: Nothing important. 
+  * ADD: button badge for github release
 * 0.0.1
     * Work in progress
 
