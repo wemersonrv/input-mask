@@ -6,7 +6,7 @@
         type="text"
         class="w-full form-control form-input form-input-bordered"
         :class="errorClasses"
-        :placeholder="field.name"
+        v-bind="extraAttributes"
         v-model="value"
         v-mask="setMask"
       >
@@ -30,7 +30,23 @@ export default {
   computed: {
     setMask() {
       return this.field.mask;
-    }
+    },
+    defaultAttributes() {
+      return {
+        placeholder: this.field.placeholder || this.field.name,
+      }
+    },
+    extraAttributes() {
+      const attrs = this.field.extraAttributes
+
+      return {
+        // Leave the default attributes even though we can now specify
+        // whatever attributes we like because the old number field still
+        // uses the old field attributes
+        ...this.defaultAttributes,
+        ...attrs,
+      }
+    },
   },
 
   methods: {
