@@ -8,7 +8,7 @@
         :class="errorClasses"
         :placeholder="field.name"
         v-model="value"
-        v-mask="setMask"
+        :mask="setMask"
       >
     </template>
   </default-field>
