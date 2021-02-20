@@ -36,4 +36,19 @@ class InputMask extends Field
     {
         return $this->withMeta([__FUNCTION__ => $raw]);
     }
+    
+    /**
+     * Set placeholder
+     *
+     * @param string $placeholder
+     * @return InputMask
+     */
+    public function placeholder(string $placeholder = '')
+    {
+        return $this->withMeta([
+            'extraAttributes' => [
+                'placeholder' => $placeholder,
+            ],
+        ]);
+    }
 }
